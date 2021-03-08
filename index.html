@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+  <h1>Quizz Harry Potter !</h1>
+  <h3>Difficulté : Hard</h3>
+
+  <div class="container-global">
+
+    <form class="form-quizz">
+
+          <div class="question-block">
+            <h4>En quelle année est né Harry Potter? </h4>
+            
+            <div>
+                <input type="radio" id="date1" name="q1" value="a"checked>
+                <label for="date1">1990</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="date2" name="q1" value="b">
+                <label for="date2">1980</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="date3" name="q1" value="c">
+                <label for="date3">1987</label>
+            </div>
+        </div>
+
+        <div class="question-block">
+            <h4>Dans quel pays se situe Poudlard ?</h4>
+            <div>
+                <input type="radio" id="Irlande" name="q2" value="a" checked>
+                <label for="Irlande">Irlande</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="Angleterre" name="q2" value="b">
+                <label for="Angleterre">Angleterre</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="Ecosse" name="q2" value="c">
+                <label for="Ecosse">Ecosse</label>
+            </div>
+        </div>
+
+        <div class="question-block">
+            <h4>Quel examen passe les éléves de cinquième année ?</h4>
+            <div>
+                <input type="radio" id="exam1" name="q3" value="a" checked>
+                <label for="exam1">Les A.S.P.I.C.</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="exam2" name="q3" value="b">
+                <label for="exam2">Les B.U.S.E</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="exam3" name="q3" value="c">
+                <label for="exam3">Le permis de transplanner</label>
+            </div>
+        </div>
+
+
+        <div class="question-block">
+            <h4>Avec quelle ingrédient Harry sauve Ron de l'empoisonnement dans "Le prince de sang mélé" ?</h4>
+
+            <div>
+                <input type="radio" id="Mandragore" name="q4" value="a" checked>
+                <label for="Mandragore">Mandragore</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="Bézoart" name="q4" value="b">
+                <label for="Bézoart">Bézoart</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="Crin de licorne" name="q4" value="c">
+                <label for="Crin de licorne">Crin de licorne</label>
+            </div>
+        </div>
+
+
+        <div class="question-block">
+            <h4>Quelle est le prénom du seul oncle connu de Voldemort?</h4>
+            <div>
+                <input type="radio" id="Morfin" name="q5" value="a"
+                    checked>
+                <label for="Morfin">Morfin</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="Marvollo" name="q5" value="b">
+                <label for="Marvollo">Marvollo</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="Elvis" name="q5" value="c">
+                <label for="Elvis">Elvis</label>
+            </div>
+        </div>
+
+        <button type="submit">Validez vos choix !</button>
+    </form>
+
+    <div class="resultats">
+      <h2>Cliquez sur valider pour voir les résultats.</h2>
+      <p class="aide"></p>
+      <p class="note"></p>
+    </div>
+  </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
