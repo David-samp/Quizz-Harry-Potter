@@ -9,3 +9,5 @@ Le JS lui permet d'ajouter l'interactivité. En effet, en fonction des réponses
 Le JS renverra par exemple le nombre de réponses exactes, changera la couleur des reponses vraies ou fausses, et un message différent apparaitra en fonction de la note obtenue. 
 
 Prochainement, il est envisagé d'utiliser un framework (exemple react) afin de créer des quizz par le biais de composants réutilisable. 
+
+Prochaine mise à jour : Responsivité.
